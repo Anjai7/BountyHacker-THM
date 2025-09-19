@@ -14,7 +14,7 @@ PORT   STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 25.39 seconds
 ```
 Now lets go visit website
-![[Pasted image 20250916095151.png]]
+![image](Pasted%20image%2020250916095151.png)
 no clue lets do a dirctory attack on website 
 ```
 ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/combined_directories.txt -u http://10.  
@@ -204,7 +204,7 @@ User lin may run the following commands on ip-10-10-165-84:
    (root) /bin/tar
 ```
 fortunately the first vector i checked itself is leading to root access lets visit gtfobins to get the command to spawn root shell 
-![[Pasted image 20250916100257.png]]
+![image](Pasted%20image%2020250916100257.png)
 
 now that we have it lets execute it 
 ```
